@@ -1,4 +1,5 @@
 from flask import Flask
+from os import environ
 
 # Instanciando a classe base do Flask
 app = Flask(__name__) #->
